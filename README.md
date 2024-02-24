@@ -3,7 +3,8 @@
 This project implements a movie recommendation system using Apache Spark for data processing and Flask for creating a web application interface. The recommendation system recommends movies based on genre, year, and user ratings.
 
 ### Demo
-Watch Demo Video
+[Watch Demo Video](/screenshots/demo.mkv)
+
 
 ### Screenshots
 
