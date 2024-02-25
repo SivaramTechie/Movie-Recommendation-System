@@ -11,7 +11,7 @@ spark = SparkSession.builder \
     .appName("GenreYearBasedMovieRecommendation") \
     .getOrCreate()
 
-# Load ratings, movies, and tags data from Google Drive
+# Load ratings, movies, and tags data from Movielense Datasets
 ratings_df = spark.read.csv("./datasets/rating.csv", header=True, inferSchema=True)
 movies_df = spark.read.csv("./datasets/movie.csv", header=True, inferSchema=True)
 tags_df = spark.read.csv("./datasets/tag.csv", header=True, inferSchema=True)
