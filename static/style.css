@@ -119,3 +119,9 @@ li {
 .download-link {
   color: #777bff;
 }
+
+@media only screen and (max-width: 768px) {
+  .main {
+    width: 90%;
+  }
+}
